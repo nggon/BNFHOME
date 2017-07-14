@@ -15,6 +15,14 @@ h2 {
 		margin-bottom: 30px;
 }
 
+h3 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
 h4 {
 		font-size: 19px;
 		line-height: 1.375em;
@@ -35,7 +43,27 @@ h4 {
 {
 }
 
+.bnf-introduce1
+{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 24px;
+		color: #101010;
+		font-weight: 600;
+}
 
+.centered-image
+{
+	top: 50%;
+	vertical-align: middle;
+}
+
+.bnf-introduce2
+{
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 18px;
+		color: #101010;
+		font-weight: 300;
+}
 
 .banner-info
 {

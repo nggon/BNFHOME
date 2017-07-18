@@ -39,6 +39,10 @@ h4 {
     position: relative;
 }
 
+.headerlogo{
+	margin-top: 60px;
+}
+
 #main-header
 {
 }
@@ -52,12 +56,6 @@ h4 {
 		margin-bottom: 0px;
 }
 
-.centered-image
-{
-	top: 50%;
-	vertical-align: middle;
-}
-
 .bnf-introduce2
 {
 		font-family: 'Noto Sans KR', sans-serif;
@@ -67,9 +65,35 @@ h4 {
 		margin-bottom: 0px;
 }
 
-introduce_project h2{
+.BNF_INTRO h1{
+	margin-top: 30px;
+	margin-bottom: -15px;
+}
+
+.RED{
+	color: #ff0000;
+}
+
+.BNF_INTRO h2{
+	font-size: 18px;
+	font-weight: 700;
+	color: #808080;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.BNF_INTRO p{
+	font-weight: 300;
+	font-size: 18px;
+	color: #000000;
+	text-transform: none;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.introduce_project h2{
 	font-family: 'Noto Sans KR', sans-serif;
-	font-size: 30px;
+	font-size: 25px;
 	color: #101010;
 	font-weight: 500;
 	margin-bottom: 0px;
@@ -97,7 +121,7 @@ h1.bnr-title
 .container-fluid h1
 {
 		color: #000;
-    font-size: 42px;
+    font-size: 35px;
     text-transform: uppercase;
 		font-weight: 700;
 }
@@ -123,7 +147,7 @@ h2.bnr-sub-title
 }
 
 .container-fluid {
-		padding: 50px 60px;
+		padding: 30px 30px;
 }
 .bg-grey {
 		background-color: #f6f6f6;
@@ -218,6 +242,23 @@ h2.bnr-sub-title
 		border-radius: 0;
 }
 
+.video-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+		max-width: 600px;
+		max-height: 400px;
+}
+
 .navbar li a {
 		color: #fff !important;
 }
@@ -283,6 +324,8 @@ footer .glyphicon {
 			width: 100%;
 			margin-bottom: 35px;
 	}
+
+
 }
 @media screen and (max-width: 480px) {
 	.logo {

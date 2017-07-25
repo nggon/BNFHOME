@@ -1,8 +1,16 @@
 /*폰트파일 추가!! 일단 구글 웹폰트 NOTO SANS로...*/
+
+/*
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(stylesheets/NotoSansKR-Hestia.css);
+*/
+
+.noto {
+    font-family: 'Noto Sans Korean', sans-serif;
+}
 
 body {
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: 'Noto Sans Korean', sans-serif;
 		line-height: 1.8;
 		color: #818181;
 }
@@ -53,7 +61,7 @@ h4 {
 
 .bnf-introduce1
 {
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: 'Noto Sans Korean', sans-serif;
 		font-size: 18px;
 		color: #101010;
 		font-weight: 500;
@@ -62,7 +70,7 @@ h4 {
 
 .bnf-introduce2
 {
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: 'Noto Sans Korean', sans-serif;
 		font-size: 18px;
 		color: #101010;
 		font-weight: 300;
@@ -104,7 +112,7 @@ h4 {
 }
 
 .RELEASE_CONTENTS p{
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Noto Sans Korean', sans-serif;
 	font-weight: 300;
 	font-size: 13px;
 	color: #000000;
@@ -113,7 +121,7 @@ h4 {
 }
 
 .introduce_project h2{
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Noto Sans Korean', sans-serif;
 	font-size: 25px;
 	color: #101010;
 	font-weight: 500;
@@ -127,7 +135,7 @@ h4 {
 }
 .bnr-title, .bnr-sub-title
 {
-		font-family: 'Noto Sans KR', sans-serif;
+		font-family: 'Noto Sans Korean', sans-serif;
 }
 
 h1.bnr-title
@@ -165,6 +173,21 @@ h2.bnr-sub-title
    bottom: 25px;
    font-size: 38px;
    color: #fff;
+}
+
+.dropdown-menu{
+  background-color: rgba(50, 50, 50, 0.0);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a{
+  color: #fff;
+  font-size: 13px; !important;
+  /*text-transform: uppercase;*/
+  font-weight: 700;
+  border: 0;
+  margin-bottom: 0;
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .container-fluid {

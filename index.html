@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 
-  <title>BNFGAMES | World No1 Game Developer</title>
+  <title>BNFGAMES | World No.1 FPS Developer</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -75,8 +75,8 @@
         <h1>About.. BNFGAMES</h1>
         <h2>&nbsp World No.1 FPS Developer</h2>
         <p>&nbsp 비엔에프게임즈는 차세대 웹 표준기술(HTML5)을 기반으로 한 멀티플랫폼 게임 전문 개발사입니다.
-          WEB, PC, 콘솔, VR, IPTV 등 디바이스와 플랫폼, OS에 구애받지 않고 모든 플레이어들이 언제 어디서나 간편하게 즐길 수 있는
-          게임을 만들기 설립되었습니다. 세계 최고의 멀티플랫폼 게임 개발사가 되기 위한 비엔에프게임즈의 힘찬 도전을
+          WEB, PC, 콘솔, VR, IPTV 등 디바이스와 플랫폼이나 OS 에 구애받지 않고 모든 플레이어들이 언제 어디서나 간편하게 즐길 수 있는
+          게임을 만들기 설립되었습니다. <br>&nbsp세계 최고의 멀티플랫폼 게임 개발사가 되기 위한 비엔에프게임즈의 힘찬 도전을
           지켜봐 주시기 바랍니다.</p>
       </div>
     </div>
@@ -98,12 +98,11 @@
     </div>
     <div class="col-md-6">
       <div class="BNF_INTRO" >
-        <h1>PROJECT BNFIRE</h1>
+        <h1>PROJECT 'BNFIRE'</h1>
         <h2>&nbsp Multiplatform FPS with HTML5</h2>
         <p>&nbsp 비엔에프게임즈의 <span class="RED"><b>글로벌 멀티플랫폼 FPS 프로젝트</b></span>. 그 첫번째는 웹 브라우저에서 동작하는
-          온라인 FPS 게임입니다. HTML5로 제작되어 IE, 크롬, 파이어폭스, 사파리, 오페라 등 브라우저가 실행되는 환경이라면
-          어디서든지 플레이 가능한 <span class="RED"><b>'BNFIRE with HTML5'</b></span>. 기존 웹 브라우저 게임의 수준을 넘어서는 높은 수준의 그래픽과 빠른 속도감을
-          'PROJECT BIFIRE'에서 체감할 수 있습니다.
+          온라인 FPS 게임입니다. <br> &nbsp 'PROJECT BNFIRE'는 HTML5로 제작되어 IE, 크롬, 파이어폭스, 사파리, 오페라 등 브라우저가 실행되는 환경이라면
+          어디서든지 플레이 가능합니다. 차세대 멀티플랫폼 웹게임 'PROJECT BNFIRE'에서 높은 수준의 그래픽과 빠른 속도감을 경험해보시기 바랍니다.
         </p>
       </div>
     </div>
@@ -111,7 +110,7 @@
 </div>
 
 <!-- Container (Portfolio Section) -->
-<section id="press" class="section-padding wow fadeInUp delay-05s bg-grey">
+<section id="press" class="section-padding wow fadeInUp delay-05s">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -174,16 +173,22 @@
 </section>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid">
+<div id="contact" class="container-fluid bg-grey" >
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-4">
       <p>Contact us and we'll get back to you within 24 hours.</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> A1614, Bundang U-Tower, Sinsu-ro, Youngin-si, Gyeonggi-do,16827, Korea</p>
       <p><span class="glyphicon glyphicon-phone"></span> +82 31.299.1930</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> business@bnfgames.com</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>
+        <a href="mailto:business@bnfgames.com" target="_top">business@bnfgames.com</a></p>
+    </div>
+    <div class="col-sm-8">
+      <div id="googleMap" style="height:300px;width:95%; margin-left:auto; margin-right:auto;"></div>
     </div>
 
+
+    <!--
     <form action="php/newMail.php" method="post" class="mail-form">
       <div class="col-sm-7 slideanim">
         <div class="row">
@@ -203,6 +208,7 @@
         </div>
       </div>
     </form>
+  -->
 
     <!-- Contact Form
     <form action="php/newMail.php" method="post" class="mail-form">
@@ -239,17 +245,20 @@
 </div>
 
 <!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
+<!--
+<div id="googleMap" style="height:350px;width:90%; margin-left:auto; margin-right:auto;"></div>
+-->
 <script>
   function myMap() {
     var myCenter = new google.maps.LatLng(37.3382356, 127.0994985);
-    var mapProp = {center:myCenter, zoom:17, scrollwheel:true, draggable:true, mapTypeId:google.maps.MapTypeId.ROADMAP};
+    var mapProp = {center:myCenter, zoom:17, scrollwheel:false, draggable:true, mapTypeId:google.maps.MapTypeId.ROADMAP};
     var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     var marker = new google.maps.Marker({position:myCenter, title:'BNFGAMES'});
     marker.setMap(map);
 }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSVvRptHw9YaoYOwWWU9zOTaa1GNjH12w&callback=myMap"></script>
+
 <!--
 To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
